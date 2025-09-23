@@ -4,11 +4,12 @@
  * The Euclidean algorithm (also called Euclid's algorithm) is an
  * algorithm to determine the greatest common divisor of two integers.
  */
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
 int gcd(int a, int b) {
-  int k;
+  int r = 0;
   while (b != 0) {
     r = b;
     b = b % a;
@@ -27,7 +28,7 @@ int main(int argc, char* argv[]) {
 
     int result = gcd(a, b);
 
-    printf("%d\n", result + 5);
+    printf("%d\n", result);
 
-    return 0
+    return 0;
 }
