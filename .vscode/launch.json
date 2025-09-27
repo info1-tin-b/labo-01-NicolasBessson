@@ -10,7 +10,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/gcd",
-            "args": ["42", "36"],
+            "args": ["100", "30"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
