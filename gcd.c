@@ -58,9 +58,9 @@ int main(int argc, char* argv[]) {
     }
 
     // Convertit le premier chiffre en entier
-    int a = atoi(argv[1]);
+    int a = abs(atoi(argv[1]));
     // Convertit le deuxième chiffre en entier
-    int b = atoi(argv[2]);
+    int b = abs(atoi(argv[2]));
 
     // calcule du PGCD avec la fonction gcd
     int result = gcd(a, b);
